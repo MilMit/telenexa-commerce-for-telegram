@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="woogram-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2BB5F6"/>
+      <stop offset="55%" stop-color="#1E88E5"/>
+      <stop offset="100%" stop-color="#7928CA"/>
+    </linearGradient>
+    <linearGradient id="woogram-wing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <filter id="woogram-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0.8" stdDeviation="0.8" flood-color="#0a2540" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="24" height="24" rx="6" fill="url(#woogram-grad)"/>
+  <g filter="url(#woogram-shadow)">
+    <!-- Main Upper Body -->
+    <path d="M18.5 5.5L4.5 11.2c-.7.3-.7.9-.1 1.1l3.6 1.1 1.2 3.8c.2.4.4.5.6.3l1.8-1.7 3.8 2.8c.7.4 1.1.2 1.3-.6L19.4 6.7c.3-1.1-.4-1.6-1.4-1.2h.5z" fill="url(#woogram-wing)"/>
+    <!-- Fold Shading -->
+    <path d="M9.3 13.4l7.6-6.8c.3-.3.6-.1.3.2L9.1 14.5l-.2 3.1c.1 0 .2-.1.3-.2l1.6-1.5-.7-2.7-.8.2z" fill="#B9E3FE" opacity="0.9"/>
+    <!-- Underwing -->
+    <path d="M8.9 17.6l.3-3.8 1.6 1.2-1.9 2.6z" fill="#8ACCFD"/>
+  </g>
+  <!-- Mini Shopping Cart/Commerce emblem in bottom-right -->
+  <g transform="translate(13.8, 14.2)">
+    <circle cx="4" cy="4" r="4" fill="#7928CA" stroke="#FFFFFF" stroke-width="0.9"/>
+    <!-- Cart / Bag icon -->
+    <path d="M2.3 2.5h.7l.6 2.6h2.4l.6-1.8H3.3" fill="none" stroke="#FFFFFF" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="3.9" cy="5.8" r="0.45" fill="#FFFFFF"/>
+    <circle cx="5.7" cy="5.8" r="0.45" fill="#FFFFFF"/>
+  </g>
+</svg>

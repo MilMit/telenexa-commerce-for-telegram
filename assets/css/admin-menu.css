@@ -1,0 +1,15 @@
+#adminmenu .toplevel_page_woogram_main .wp-menu-image img,
+#adminmenu .toplevel_page_telenexa_main .wp-menu-image img {
+    width: 20px !important;
+    height: 20px !important;
+    padding: 7px 0 0 0 !important;
+    opacity: 0.92;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+#adminmenu .toplevel_page_woogram_main:hover .wp-menu-image img,
+#adminmenu .toplevel_page_woogram_main.wp-has-current-submenu .wp-menu-image img,
+#adminmenu .toplevel_page_telenexa_main:hover .wp-menu-image img,
+#adminmenu .toplevel_page_telenexa_main.wp-has-current-submenu .wp-menu-image img {
+    opacity: 1;
+    transform: scale(1.08);
+}

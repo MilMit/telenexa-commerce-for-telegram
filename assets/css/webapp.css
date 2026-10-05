@@ -1,0 +1,664 @@
+        :root {
+            --bg-color: var(--tg-theme-bg-color, #ffffff);
+            --text-color: var(--tg-theme-text-color, #111827);
+            --hint-color: var(--tg-theme-hint-color, #6b7280);
+            --link-color: var(--tg-theme-link-color, #0284c7);
+            --button-color: var(--tg-theme-button-color, #0284c7);
+            --button-text: var(--tg-theme-button-text-color, #ffffff);
+            --secondary-bg: var(--tg-theme-secondary-bg-color, #f8fafc);
+            --card-border: rgba(0, 0, 0, 0.08);
+            --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --radius-md: 14px;
+            --radius-sm: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding-bottom: 75px;
+            overflow-x: hidden;
+        }
+
+        /* Top Header */
+        .app-header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: var(--bg-color);
+            backdrop-filter: blur(10px);
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--card-border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .app-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .app-logo {
+            width: 34px;
+            height: 34px;
+            background: linear-gradient(135deg, #0284c7, #0ea5e9);
+            color: #fff;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .app-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .app-user {
+            font-size: 13px;
+            color: var(--hint-color);
+        }
+
+        /* Search Bar */
+        .search-container {
+            padding: 10px 16px;
+            background: var(--bg-color);
+        }
+        .search-box {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid var(--card-border);
+            background: var(--secondary-bg);
+            color: var(--text-color);
+            padding: 0 38px 0 16px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-input:focus {
+            border-color: var(--button-color);
+        }
+        .search-icon {
+            position: absolute;
+            right: 14px;
+            color: var(--hint-color);
+            pointer-events: none;
+        }
+
+        /* Grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            padding: 0 16px 16px;
+        }
+        .product-card {
+            background: var(--secondary-bg);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--card-border);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: transform 0.15s;
+        }
+        .product-card:active {
+            transform: scale(0.98);
+        }
+        .product-img-wrap {
+            position: relative;
+            width: 100%;
+            padding-top: 100%;
+            background: #e2e8f0;
+        }
+        .product-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .product-discount-badge {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: #ef4444;
+            color: #fff;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+        .product-type-badge {
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            background: rgba(15, 23, 42, 0.7);
+            color: #fff;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-size: 10px;
+        }
+        .product-wishlist-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .product-info {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+        .product-title {
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 6px;
+            height: 34px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .product-price-row {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .product-price {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-color);
+        }
+        .product-regular-price {
+            font-size: 12px;
+            color: var(--hint-color);
+            text-decoration: line-through;
+        }
+        .btn-add-cart {
+            width: 100%;
+            height: 34px;
+            border-radius: var(--radius-sm);
+            background: var(--button-color);
+            color: var(--button-text);
+            border: none;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+        .cart-qty-counter {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-color);
+            border: 1px solid var(--button-color);
+            border-radius: var(--radius-sm);
+            height: 34px;
+            overflow: hidden;
+        }
+        .qty-btn {
+            width: 32px;
+            height: 100%;
+            background: transparent;
+            border: none;
+            color: var(--button-color);
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .qty-val {
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        /* Bottom Nav */
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: var(--bg-color);
+            border-top: 1px solid var(--card-border);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            z-index: 50;
+        }
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2px;
+            color: var(--hint-color);
+            font-size: 11px;
+            cursor: pointer;
+            position: relative;
+            padding: 4px 12px;
+        }
+        .nav-item.is-active {
+            color: var(--button-color);
+            font-weight: 700;
+        }
+        .nav-icon {
+            font-size: 20px;
+        }
+        .nav-badge {
+            position: absolute;
+            top: 2px;
+            right: 12px;
+            background: #ef4444;
+            color: #fff;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 1px 5px;
+            border-radius: 10px;
+        }
+
+        /* Views */
+        .tab-view {
+            display: none;
+        }
+        .tab-view.is-active {
+            display: block;
+        }
+
+        /* Cart View */
+        .cart-container {
+            padding: 16px;
+        }
+        .cart-item {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            padding: 12px;
+            background: var(--secondary-bg);
+            border-radius: var(--radius-md);
+            margin-bottom: 10px;
+            border: 1px solid var(--card-border);
+        }
+        .cart-item-img {
+            width: 56px;
+            height: 56px;
+            border-radius: var(--radius-sm);
+            object-fit: cover;
+            background: #e2e8f0;
+        }
+        .cart-item-info {
+            flex-grow: 1;
+        }
+        .cart-item-title {
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .cart-item-price {
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .cart-summary {
+            background: var(--secondary-bg);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            margin-top: 16px;
+            border: 1px solid var(--card-border);
+        }
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .summary-row.total {
+            font-size: 16px;
+            font-weight: 700;
+            border-top: 1px solid var(--card-border);
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .checkout-form {
+            margin-top: 16px;
+        }
+        .form-group {
+            margin-bottom: 12px;
+        }
+        .form-label {
+            font-size: 12px;
+            color: var(--hint-color);
+            margin-bottom: 4px;
+            display: block;
+        }
+        .form-input {
+            width: 100%;
+            height: 38px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--card-border);
+            background: var(--bg-color);
+            color: var(--text-color);
+            padding: 0 12px;
+            font-size: 13px;
+            outline: none;
+        }
+        .btn-checkout {
+            width: 100%;
+            height: 44px;
+            background: var(--button-color);
+            color: var(--button-text);
+            border-radius: var(--radius-md);
+            border: none;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 16px;
+        }
+        .btn-coupon {
+            background: var(--button-color);
+            color: var(--button-text);
+            border: none;
+            padding: 0 14px;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* Radio cards for shipping / payment */
+        .option-card-row {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-top: 6px;
+        }
+        .option-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg-color);
+            border: 1px solid var(--card-border);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .option-card.is-selected {
+            border-color: var(--button-color);
+            background: #f0f9ff;
+        }
+
+        /* Variation Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 100;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .modal-overlay.is-active {
+            display: flex;
+        }
+        .modal-content {
+            background: var(--bg-color);
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px 20px 0 0;
+            padding: 20px;
+            max-height: 85vh;
+            overflow-y: auto;
+            animation: slideUp 0.25s ease-out;
+        }
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .modal-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: var(--hint-color);
+        }
+
+        /* Empty states */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .empty-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+        .empty-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .empty-desc {
+            font-size: 13px;
+            color: var(--hint-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="app-header">
+        <div class="app-brand">
+            <div class="app-logo">W</div>
+            <div>
+                <h1 class="app-title"><?php echo esc_html($woogram_site_name); ?></h1>
+                <div class="app-user" id="tg_user_display">TeleNexa</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TAB 1: SHOP (CATALOG) -->
+    <section class="tab-view is-active" id="view-shop">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="search_input" class="search-input" placeholder="<?php echo $woogram_is_persian ? 'جستجوی نام کالا یا شناسه SKU...' : 'Search products by name or SKU...'; ?>">
+                <span class="search-icon">🔍</span>
+            </div>
+        </div>
+        <div class="products-grid" id="products_grid"></div>
+    </section>
+
+    <!-- TAB 2: CART & CHECKOUT -->
+    <section class="tab-view" id="view-cart">
+        <div class="cart-container">
+            <h2 style="font-size: 18px; margin-bottom: 14px;"><?php echo $woogram_is_persian ? 'سبد خرید شما' : 'Shopping Cart'; ?></h2>
+            <div id="cart_items_list"></div>
+
+            <div class="cart-summary" id="cart_summary_box" style="display: none;">
+                <!-- Summary breakdown -->
+                <div class="summary-row">
+                    <span><?php echo $woogram_is_persian ? 'مجموع خرید:' : 'Subtotal'; ?></span>
+                    <strong id="cart_subtotal">0</strong>
+                </div>
+                <div class="summary-row" id="row_discount" style="display: none; color: #15803d;">
+                    <span><?php echo $woogram_is_persian ? 'تخفیف:' : 'Discount'; ?></span>
+                    <strong id="cart_discount">0</strong>
+                </div>
+                <div class="summary-row" id="row_shipping">
+                    <span><?php echo $woogram_is_persian ? 'هزینه ارسال:' : 'Shipping'; ?></span>
+                    <strong id="cart_shipping"><?php echo $woogram_is_persian ? 'محاسبه در مرحله بعد' : 'Calculated at checkout'; ?></strong>
+                </div>
+                <div class="summary-row" id="row_tax">
+                    <span><?php echo $woogram_is_persian ? 'مالیات:' : 'Tax'; ?></span>
+                    <strong id="cart_tax">0</strong>
+                </div>
+                <div class="summary-row total">
+                    <span><?php echo $woogram_is_persian ? 'مبلغ نهایی:' : 'Final Total'; ?></span>
+                    <strong id="cart_total" style="color: var(--button-color);">0</strong>
+                </div>
+
+                <!-- Coupon Box -->
+                <div class="form-group" style="margin-top: 14px;">
+                    <label class="form-label"><?php echo $woogram_is_persian ? 'کد تخفیف:' : 'Discount Coupon'; ?></label>
+                    <div style="display: flex; gap: 8px;">
+                        <input type="text" id="chk_coupon" class="form-input" placeholder="DISCOUNT10">
+                        <button type="button" id="btn_apply_coupon" class="btn-coupon"><?php echo $woogram_is_persian ? 'اعمال' : 'Apply'; ?></button>
+                    </div>
+                    <div id="coupon_feedback" style="font-size: 12px; margin-top: 4px;"></div>
+                </div>
+
+                <!-- Checkout Details Form -->
+                <div class="checkout-form">
+                    <h3 style="font-size: 15px; margin-bottom: 12px; border-top: 1px solid var(--card-border); padding-top: 12px;">
+                        <?php echo $woogram_is_persian ? 'مشخصات تحویل‌گیرنده' : 'Recipient Details'; ?>
+                    </h3>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'نام و نام‌خانوادگی:' : 'Full Name'; ?> *</label>
+                        <input type="text" id="chk_name" class="form-input" placeholder="<?php echo $woogram_is_persian ? 'علی محمدی' : 'John Doe'; ?>">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'شماره تماس همراه:' : 'Phone Number'; ?> *</label>
+                        <input type="tel" id="chk_phone" class="form-input" placeholder="0912...">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'آدرس ایمیل:' : 'Email Address'; ?></label>
+                        <input type="email" id="chk_email" class="form-input" placeholder="you@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'استان:' : 'Province / State'; ?></label>
+                        <input type="text" id="chk_state" class="form-input" placeholder="<?php echo $woogram_is_persian ? 'تهران' : 'Tehran'; ?>">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'شهر:' : 'City'; ?></label>
+                        <input type="text" id="chk_city" class="form-input" placeholder="<?php echo $woogram_is_persian ? 'تهران' : 'Tehran'; ?>">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'نشانی دقیق پستی:' : 'Detailed Address'; ?> *</label>
+                        <input type="text" id="chk_address" class="form-input" placeholder="<?php echo $woogram_is_persian ? 'خیابان، کوچه، پلاک...' : 'Street, No...'; ?>">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'کد پستی ۱۰ رقمی:' : 'Postal Code'; ?></label>
+                        <input type="text" id="chk_zip" class="form-input" placeholder="1234567890">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'یادداشت یا توضیحات سفارش:' : 'Order Notes'; ?></label>
+                        <input type="text" id="chk_note" class="form-input" placeholder="<?php echo $woogram_is_persian ? 'اختیاری...' : 'Optional delivery notes...'; ?>">
+                    </div>
+
+                    <!-- Shipping Methods Container -->
+                    <div id="shipping_section" style="margin-top: 14px; display: none;">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'روش ارسال کالا:' : 'Select Shipping Method:'; ?></label>
+                        <div class="option-card-row" id="shipping_methods_list"></div>
+                    </div>
+
+                    <!-- Payment Gateways Container -->
+                    <div id="payment_section" style="margin-top: 14px; display: none;">
+                        <label class="form-label"><?php echo $woogram_is_persian ? 'انتخاب درگاه پرداخت:' : 'Select Payment Gateway:'; ?></label>
+                        <div class="option-card-row" id="payment_gateways_list"></div>
+                    </div>
+
+                    <button class="btn-checkout" id="btn_proceed_checkout">
+                        💳 <?php echo $woogram_is_persian ? 'تکمیل سفارش و پرداخت' : 'Proceed to Payment'; ?>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TAB 3: WISHLIST -->
+    <section class="tab-view" id="view-wishlist">
+        <div class="cart-container">
+            <h2 style="font-size: 18px; margin-bottom: 14px;"><?php echo $woogram_is_persian ? 'علاقه‌مندی‌های من' : 'Saved Wishlist'; ?></h2>
+            <div id="wishlist_items_list"></div>
+        </div>
+    </section>
+
+    <!-- TAB 4: ORDERS -->
+    <section class="tab-view" id="view-orders">
+        <div class="cart-container">
+            <h2 style="font-size: 18px; margin-bottom: 14px;"><?php echo $woogram_is_persian ? 'سفارش‌های من' : 'My Orders'; ?></h2>
+            <div id="orders_list"></div>
+        </div>
+    </section>
+
+    <!-- Variation Selection Modal -->
+    <div class="modal-overlay" id="var_modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="var_modal_title">انتخاب مشخصات محصول</div>
+                <button class="modal-close" onclick="closeVariationModal()">&times;</button>
+            </div>
+            <div style="display: flex; gap: 14px; align-items: center; margin-bottom: 16px;">
+                <img id="var_modal_img" src="" style="width: 70px; height: 70px; object-fit: cover; border-radius: 8px;">
+                <div>
+                    <div id="var_modal_price" style="font-size: 16px; font-weight: 700; color: var(--button-color);"></div>
+                    <div id="var_modal_stock" style="font-size: 12px; color: var(--hint-color); margin-top: 4px;"></div>
+                </div>
+            </div>
+            <div id="var_options_container"></div>
+            <button class="btn-checkout" id="btn_add_variation" style="margin-top: 16px;">
+                🛒 <?php echo $woogram_is_persian ? 'افزودن این متغیر به سبد' : 'Add Variation to Cart'; ?>
+            </button>
+        </div>
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <div class="nav-item is-active" data-view="view-shop">
+            <span class="nav-icon">🛍️</span>
+            <span><?php echo $woogram_is_persian ? 'فروشگاه' : 'Shop'; ?></span>
+        </div>
+        <div class="nav-item" data-view="view-cart">
+            <span class="nav-icon">🛒</span>
+            <span><?php echo $woogram_is_persian ? 'سبد خرید' : 'Cart'; ?></span>
+            <span class="nav-badge" id="nav_cart_badge" style="display: none;">0</span>
+        </div>
+        <div class="nav-item" data-view="view-wishlist">
+            <span class="nav-icon">❤️</span>
+            <span><?php echo $woogram_is_persian ? 'علاقه‌ها' : 'Wishlist'; ?></span>
+        </div>
+        <div class="nav-item" data-view="view-orders">
+            <span class="nav-icon">📦</span>
+            <span><?php echo $woogram_is_persian ? 'سفارش‌ها' : 'Orders'; ?></span>
+        </div>
+    </nav>

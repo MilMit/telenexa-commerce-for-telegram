@@ -1,0 +1,1118 @@
+.milmit-settings-wrap {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Vazirmatn", "IRANSans", Tahoma, sans-serif;
+    color: #1e293b;
+    margin: 20px 20px 0 0;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+.milmit-settings-wrap *, .milmit-settings-wrap *::before, .milmit-settings-wrap *::after {
+    box-sizing: border-box;
+}
+
+/* Header */
+.milmit-header {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+}
+.milmit-header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f5f9;
+}
+.milmit-brand-badge {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.milmit-logo-icon {
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(135deg, #229ED9 0%, #0088cc 100%);
+    color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px -4px rgba(34, 158, 217, 0.35);
+}
+.milmit-title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.milmit-plugin-title {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+    line-height: 1.2;
+}
+.milmit-version-badge {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.milmit-domain-badge {
+    background: #eff6ff;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+.milmit-domain-badge:hover {
+    background: #2563eb;
+    color: #ffffff;
+}
+.milmit-subtitle {
+    margin: 6px 0 0 0;
+    font-size: 13px;
+    color: #64748b;
+}
+.milmit-header-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.milmit-btn-ghost {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    color: #475569;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.milmit-btn-ghost:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    color: #0f172a;
+}
+.milmit-btn-accent {
+    border-color: #bfdbfe;
+    background: #f0f7ff;
+    color: #1d4ed8;
+}
+.milmit-btn-accent:hover {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+/* Status Bar */
+.milmit-status-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 16px;
+    font-size: 13px;
+}
+.milmit-status-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.milmit-status-item-right {
+    margin-right: auto;
+}
+.milmit-status-label {
+    color: #64748b;
+    font-weight: 500;
+}
+.milmit-status-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 700;
+}
+.milmit-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.milmit-pill-success {
+    background: #ecfdf5;
+    color: #059669;
+}
+.milmit-pill-warning {
+    background: #fffbeb;
+    color: #d97706;
+}
+.milmit-pill-danger {
+    background: #fef2f2;
+    color: #dc2626;
+}
+.milmit-pill-neutral {
+    background: #f1f5f9;
+    color: #64748b;
+}
+.milmit-indicator {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+/* Notices & Alerts */
+.milmit-alert {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.milmit-alert-success {
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    color: #065f46;
+}
+.milmit-alert-warning {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    color: #92400e;
+}
+.milmit-alert-danger {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+}
+.milmit-alert .dashicons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+/* Main Layout */
+.milmit-layout {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+.milmit-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+}
+.milmit-content {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+/* Navigation Tabs */
+.milmit-tabs-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+.milmit-tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px 14px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    text-align: right;
+    transition: all 0.2s;
+}
+.milmit-tab-btn:hover {
+    background: #f8fafc;
+}
+.milmit-tab-btn.is-active {
+    background: linear-gradient(135deg, #229ED9 0%, #0088cc 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 10px -2px rgba(34, 158, 217, 0.35);
+}
+.milmit-tab-icon {
+    font-size: 19px;
+    width: 19px;
+    height: 19px;
+    color: #64748b;
+    flex-shrink: 0;
+}
+.milmit-tab-btn.is-active .milmit-tab-icon {
+    color: #ffffff;
+}
+.milmit-tab-info {
+    display: flex;
+    flex-direction: column;
+}
+.milmit-tab-title {
+    font-size: 14px;
+    font-weight: 700;
+}
+.milmit-tab-desc {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 2px;
+}
+.milmit-tab-btn.is-active .milmit-tab-desc {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.milmit-sidebar-card {
+    margin-top: 16px;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e0effe 100%);
+    border: 1px solid #bae6fd;
+    border-radius: 14px;
+    padding: 16px;
+    font-size: 12px;
+}
+.milmit-sidebar-card-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 700;
+    color: #0369a1;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+.milmit-sidebar-card-desc {
+    color: #0c4a6e;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+}
+.milmit-link-btn {
+    display: inline-block;
+    color: #0284c7;
+    font-weight: 700;
+    text-decoration: none;
+}
+.milmit-link-btn:hover {
+    color: #0369a1;
+    text-decoration: underline;
+}
+
+/* Card Content */
+.milmit-tab-pane {
+    display: none;
+}
+.milmit-tab-pane.is-active {
+    display: block;
+    animation: milmitFadeIn 0.25s ease-in-out;
+}
+@keyframes milmitFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.milmit-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+}
+.milmit-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 24px;
+    border-bottom: 1px solid #f1f5f9;
+    background: #fcfdfe;
+}
+.milmit-card-icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #229ED9;
+}
+.milmit-card-title {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0f172a;
+    margin: 0;
+}
+.milmit-card-subtitle {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+    color: #64748b;
+}
+.milmit-card-body {
+    padding: 24px;
+}
+
+/* Form Controls & Groups */
+.milmit-field-group {
+    margin-bottom: 22px;
+}
+.milmit-field-group:last-child {
+    margin-bottom: 0;
+}
+.milmit-field-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 16px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border: 1px solid #f1f5f9;
+}
+.milmit-field-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.milmit-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 6px;
+}
+.milmit-label-sub {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.milmit-required {
+    color: #ef4444;
+}
+.milmit-badge-secret {
+    background: #fef2f2;
+    color: #dc2626;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.milmit-help-text {
+    margin: 6px 0 0 0;
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.5;
+}
+.milmit-help-text code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #2563eb;
+    font-size: 12px;
+    direction: ltr;
+    display: inline-block;
+}
+.milmit-link {
+    color: #229ED9;
+    text-decoration: none;
+    font-weight: 600;
+}
+.milmit-link:hover {
+    text-decoration: underline;
+}
+
+/* Inputs & Textareas */
+.milmit-input, .milmit-select, .milmit-textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #0f172a;
+    background: #ffffff;
+    transition: all 0.2s;
+    outline: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+.milmit-input:focus, .milmit-select:focus, .milmit-textarea:focus {
+    border-color: #229ED9;
+    box-shadow: 0 0 0 3px rgba(34, 158, 217, 0.18);
+}
+.milmit-ltr {
+    direction: ltr !important;
+    text-align: left !important;
+}
+.milmit-input-addon-wrap {
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+    position: relative;
+}
+.milmit-addon-prefix {
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+    background: #f1f5f9;
+    color: #64748b;
+    border: 1px solid #cbd5e1;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+.milmit-input-addon-wrap .milmit-input {
+    border-radius: 10px 0 0 10px;
+}
+.milmit-addon-btn {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #64748b;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.milmit-addon-btn:hover {
+    color: #0f172a;
+}
+.milmit-number-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.milmit-number-input .milmit-input {
+    width: 100px;
+    text-align: center;
+}
+.milmit-input-unit {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* Radio Cards (Select Cards) */
+.milmit-radio-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.milmit-radio-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #ffffff;
+    transition: all 0.2s;
+}
+.milmit-radio-card:hover {
+    border-color: #cbd5e1;
+    background: #fbfcfe;
+}
+.milmit-radio-card.is-selected {
+    border-color: #229ED9;
+    background: #f0f9ff;
+}
+.milmit-radio-card.is-disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #f8fafc;
+}
+.milmit-radio-card input[type="radio"] {
+    margin-top: 3px;
+    accent-color: #229ED9;
+}
+.milmit-radio-card-content {
+    flex-grow: 1;
+}
+.milmit-radio-card-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+.milmit-radio-card-desc {
+    margin: 0;
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.5;
+}
+.milmit-chip {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+.milmit-chip-success {
+    background: #ecfdf5;
+    color: #059669;
+}
+.milmit-chip-danger {
+    background: #fef2f2;
+    color: #dc2626;
+}
+.milmit-chip-info {
+    background: #e0f2fe;
+    color: #0284c7;
+}
+
+/* Segmented Control Buttons */
+.milmit-segmented-group {
+    display: inline-flex;
+    background: #f1f5f9;
+    padding: 4px;
+    border-radius: 10px;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.milmit-segmented-item {
+    cursor: pointer;
+    margin: 0;
+}
+.milmit-segmented-item input[type="radio"] {
+    display: none;
+}
+.milmit-segmented-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #475569;
+    transition: all 0.2s;
+    user-select: none;
+}
+.milmit-segmented-item input[type="radio"]:checked + .milmit-segmented-label {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Toggle Switch Pill */
+.milmit-toggle-wrapper {
+    display: inline-flex;
+    background: #e2e8f0;
+    padding: 3px;
+    border-radius: 8px;
+    gap: 2px;
+}
+.milmit-switch input[type="radio"] {
+    display: none;
+}
+.milmit-toggle-opt {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.milmit-switch input[type="radio"]:checked + .milmit-toggle-opt {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.milmit-switch input[type="radio"]:checked + .milmit-toggle-opt-warn {
+    background: #f59e0b;
+    color: #ffffff;
+}
+
+/* iOS Style Switch */
+.milmit-switch-ios {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.milmit-switch-ios input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.milmit-slider-ios {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #cbd5e1;
+    transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 34px;
+}
+.milmit-slider-ios:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    right: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.milmit-switch-ios input:checked + .milmit-slider-ios {
+    background-color: #229ED9;
+}
+.milmit-switch-ios input:checked + .milmit-slider-ios:before {
+    transform: translateX(-20px);
+}
+
+/* Grids & Toggles Matrix */
+.milmit-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    margin-bottom: 18px;
+}
+.milmit-section-title {
+    font-size: 15px;
+    font-weight: 800;
+    color: #1e293b;
+    margin: 20px 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.milmit-divider {
+    border: 0;
+    border-top: 1px solid #f1f5f9;
+    margin: 24px 0;
+}
+.milmit-toggles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+}
+.milmit-toggle-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 14px 16px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+.milmit-toggle-card:hover {
+    border-color: #cbd5e1;
+    background: #fbfcfe;
+}
+.milmit-toggle-card-info {
+    flex-grow: 1;
+}
+.milmit-toggle-card-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1e293b;
+}
+.milmit-toggle-card-desc {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 2px;
+}
+
+/* Elements Matrix Table */
+.milmit-matrix-wrap {
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.milmit-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+.milmit-matrix-table thead {
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+.milmit-matrix-table th {
+    padding: 12px 16px;
+    text-align: right;
+    font-weight: 700;
+    color: #475569;
+}
+.milmit-th-check {
+    text-align: center !important;
+    width: 25%;
+}
+.milmit-matrix-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #f1f5f9;
+}
+.milmit-matrix-table tr:last-child td {
+    border-bottom: none;
+}
+.milmit-matrix-table tr:hover td {
+    background: #fcfdfe;
+}
+.milmit-td-title {
+    font-weight: 600;
+    color: #1e293b;
+}
+.milmit-td-check {
+    text-align: center;
+}
+.milmit-custom-checkbox {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.milmit-custom-checkbox input {
+    width: 18px;
+    height: 18px;
+    accent-color: #229ED9;
+    cursor: pointer;
+}
+
+/* Variables Box */
+.milmit-variables-box {
+    background: #f0f7ff;
+    border: 1px dashed #93c5fd;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+.milmit-variables-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+.milmit-variable-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.milmit-chip-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid #bfdbfe;
+    background: #ffffff;
+    color: #1e40af;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.milmit-chip-btn:hover {
+    background: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+.milmit-chip-btn small {
+    font-weight: 450;
+    opacity: 0.8;
+}
+
+/* Emojionearea customization */
+.emojionearea {
+    border-radius: 10px !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03) !important;
+}
+.emojionearea.focused {
+    border-color: #229ED9 !important;
+    box-shadow: 0 0 0 3px rgba(34, 158, 217, 0.18) !important;
+}
+.emojionearea .emojionearea-editor {
+    min-height: 80px;
+    direction: rtl !important;
+    text-align: right;
+    font-family: inherit !important;
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+}
+.emojionearea-tones, .emojionearea-search {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Stepper (Commands Guide) */
+.milmit-stepper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.milmit-step-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+.milmit-step-number {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #eff6ff;
+    color: #2563eb;
+    border: 2px solid #bfdbfe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    flex-shrink: 0;
+}
+.milmit-step-content {
+    flex-grow: 1;
+}
+.milmit-step-content h4 {
+    margin: 4px 0 6px 0;
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+}
+.milmit-step-content p {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    color: #475569;
+    line-height: 1.5;
+}
+.milmit-code-block {
+    background: #0f172a;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 10px;
+    border: 1px solid #334155;
+}
+.milmit-code-block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: #1e293b;
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: 600;
+}
+.milmit-btn-copy {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #475569;
+    background: #334155;
+    color: #f8fafc;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.milmit-btn-copy:hover {
+    background: #229ED9;
+    border-color: #229ED9;
+    color: #ffffff;
+}
+.milmit-code-content {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 14px;
+    color: #38bdf8;
+    font-family: Consolas, Monaco, "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    direction: ltr;
+    text-align: left;
+    resize: none;
+    outline: none;
+}
+.milmit-preview-image-wrap {
+    margin-top: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 480px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.milmit-preview-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Proxy Collapsible */
+.milmit-proxy-container {
+    transition: all 0.3s ease-in-out;
+}
+.milmit-proxy-container.is-collapsed {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+/* Sticky Footer Bar */
+.milmit-footer-bar {
+    position: sticky;
+    bottom: 20px;
+    margin-top: 24px;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    border: 1px solid #cbd5e1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    z-index: 100;
+}
+.milmit-footer-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.milmit-btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 28px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #229ED9 0%, #0088cc 100%);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(34, 158, 217, 0.35);
+    transition: all 0.2s;
+}
+.milmit-btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(34, 158, 217, 0.45);
+    background: linear-gradient(135deg, #1fa3e2 0%, #0077b3 100%);
+}
+.milmit-btn-primary:active {
+    transform: translateY(0);
+}
+.milmit-save-hint {
+    font-size: 12px;
+    color: #64748b;
+}
+.milmit-footer-brand {
+    font-size: 13px;
+    color: #64748b;
+}
+.milmit-footer-brand a {
+    color: #229ED9;
+    font-weight: 700;
+    text-decoration: none;
+}
+.milmit-footer-brand a:hover {
+    text-decoration: underline;
+}
+
+/* Toast message */
+.milmit-toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: #0f172a;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+}
+.milmit-toast.is-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .milmit-layout {
+        flex-direction: column;
+    }
+    .milmit-sidebar {
+        width: 100%;
+    }
+    .milmit-tabs-nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .milmit-tab-btn {
+        width: auto;
+        flex: 1 1 180px;
+    }
+    .milmit-footer-bar {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+        text-align: center;
+    }
+    .milmit-footer-left {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+.milmit-membership-intro {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #bae6fd;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f0f9ff, #ecfeff);
+    color: #075985;
+}
+.milmit-membership-intro > .dashicons { color: #0284c7; font-size: 24px; width: 24px; height: 24px; }
+.milmit-membership-intro strong { display: block; margin-bottom: 4px; }
+.milmit-membership-intro p { margin: 0; line-height: 1.7; font-size: 12px; }
+.milmit-membership-list { display: grid; gap: 14px; margin: 24px 0 14px; }
+.milmit-membership-row { border: 1px solid #e2e8f0; border-radius: 14px; padding: 16px; background: #fbfdff; }
+.milmit-membership-row-head { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; color: #334155; }
+.milmit-membership-number { display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border-radius: 50%; background: #e0f2fe; color: #0369a1; font-weight: 700; }
+.milmit-remove-membership { margin-right: auto; }
+.milmit-membership-fields { display: grid; grid-template-columns: 1fr 160px; gap: 12px; }
+.milmit-membership-fields .milmit-label { margin: 0; }
+.milmit-membership-fields .milmit-input, .milmit-membership-fields .milmit-select { margin-top: 6px; }
+.milmit-membership-url { grid-column: 1 / -1; }
+.milmit-membership-enabled { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; color: #475569; font-size: 13px; }
+@media (max-width: 700px) { .milmit-membership-fields { grid-template-columns: 1fr; } .milmit-membership-url { grid-column: auto; } }

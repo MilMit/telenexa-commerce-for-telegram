@@ -1,0 +1,2400 @@
+# Translation of TeleNexa Commerce for Telegram
+# Copyright (C) 2026 MilMit
+ 
+
+msgid " (including shipping cost)"
+msgstr ""
+
+msgid " - Cost: %s"
+msgstr ""
+
+msgid " - Free"
+msgstr ""
+
+msgid " - Page %1$d of %2$d"
+msgstr ""
+
+msgid " - Page %d"
+msgstr ""
+
+msgid " actions could be required to get this working."
+msgstr ""
+
+msgid "\"WebHook\" updated"
+msgstr ""
+
+msgid "%d Units Sold"
+msgstr ""
+
+msgid "%d item(s)"
+msgstr ""
+
+msgid "%d registered groups"
+msgstr ""
+
+msgid "%d registered users"
+msgstr ""
+
+msgid "%d%% off"
+msgstr ""
+
+msgid "( %s ) was added to your cart."
+msgstr ""
+
+msgid "( %s ) was removed from your cart."
+msgstr ""
+
+msgid "1 Column"
+msgstr ""
+
+msgid "2 Columns"
+msgstr ""
+
+msgid "3 Columns"
+msgstr ""
+
+msgid "A friend just joined using your referral link!"
+msgstr ""
+
+msgid "A product in your wishlist has a price drop: <b>%s</b>"
+msgstr ""
+
+msgid "API KEY is empty."
+msgstr ""
+
+msgid "Abandoned Cart Delay (Hours)"
+msgstr ""
+
+msgid "Abandoned Cart Reminder (Action Scheduler)"
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+msgid "Access denied: You cannot access or modify orders of another user."
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Active (Direct Webhook Ready)"
+msgstr ""
+
+msgid "Active (Webhook Ready)"
+msgstr ""
+
+msgid "Active Groups"
+msgstr ""
+
+msgid "Activity Logs"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Command"
+msgstr ""
+
+msgid "Add New Item"
+msgstr ""
+
+msgid "Add bot or channel link to your website"
+msgstr ""
+
+msgid "Add commands to bot menu"
+msgstr ""
+
+msgid "Added %d item(s) to your cart."
+msgstr ""
+
+msgid "Added to wishlist"
+msgstr ""
+
+msgid "Admin Telegram Chat ID"
+msgstr ""
+
+msgid "Advanced Search & Filtering"
+msgstr ""
+
+msgid "Advanced product search"
+msgstr ""
+
+msgid "Advanced search with filters"
+msgstr ""
+
+msgid "All Audience"
+msgstr ""
+
+msgid "All Commands"
+msgstr ""
+
+msgid "All Items"
+msgstr ""
+
+msgid "All Products"
+msgstr ""
+
+msgid "All activity logs have been cleared."
+msgstr ""
+
+msgid "All changes across all tabs will be saved with this button."
+msgstr ""
+
+msgid "All events"
+msgstr ""
+
+msgid "Allow customers to find products instantly by typing or scanning SKU codes."
+msgstr ""
+
+msgid "Allow customers to open the interactive web app inside Telegram."
+msgstr ""
+
+msgid "Allow users to add the bot to Telegram groups?"
+msgstr ""
+
+msgid "Allow users to save products and open them later."
+msgstr ""
+
+msgid "Amount Paid: <b>%s</b>"
+msgstr ""
+
+msgid "Amount: <b>%s</b>"
+msgstr ""
+
+msgid "An order is already being processed. Please wait."
+msgstr ""
+
+msgid "Appearance, checkout fields, proxy and bot commands"
+msgstr ""
+
+msgid "Apply discount coupon"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Are you sure you want to clear all activity logs?"
+msgstr ""
+
+msgid "Are you sure you want to delete this group?"
+msgstr ""
+
+msgid "Are you sure you want to delete this subscriber?"
+msgstr ""
+
+msgid "Are you sure you want to overwrite current settings with this file?"
+msgstr ""
+
+msgid "Audience Management"
+msgstr ""
+
+msgid "Automated Diagnostic Tests Summary:"
+msgstr ""
+
+msgid "Automated Notifications & Alerts"
+msgstr ""
+
+msgid "Automated message texts, menus, descriptions and bot signature"
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Backup & Migration (Export / Import Settings)"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "Basic settings"
+msgstr ""
+
+msgid "Best Selling (Popularity)"
+msgstr ""
+
+msgid "Bold (*text*)"
+msgstr ""
+
+msgid "Bot"
+msgstr ""
+
+msgid "Bot Connection & Health"
+msgstr ""
+
+msgid "Bot Subscribers"
+msgstr ""
+
+msgid "Bot Token"
+msgstr ""
+
+msgid "Bot Token Status:"
+msgstr ""
+
+msgid "Bot Username"
+msgstr ""
+
+msgid "Bot connection info, access keys, and basic configuration"
+msgstr ""
+
+msgid "Bot enabled in groups"
+msgstr ""
+
+msgid "Bot test mode"
+msgstr ""
+
+msgid "Bot test mode is active:"
+msgstr ""
+
+msgid "BotFather"
+msgstr ""
+
+msgid "BotFather Menu Guide"
+msgstr ""
+
+msgid "Broadcast Message"
+msgstr ""
+
+msgid "Browse products"
+msgstr ""
+
+msgid "Buttons & Custom Actions"
+msgstr ""
+
+msgid "Buyer full name for invoice"
+msgstr ""
+
+msgid "Bye %FIRST_NAME%.\nFor start again send /start"
+msgstr ""
+
+msgid "Bye %FIRST_NAME%.\\\\\n"
+msgstr ""
+
+msgid "Bye %FIRST_NAME%.\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Bye %FIRST_NAME%.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Bye Message"
+msgstr ""
+
+msgid "Campaign Banner Announcement"
+msgstr ""
+
+msgid "Cart & Checkout"
+msgstr ""
+
+msgid "Cart Update:"
+msgstr ""
+
+msgid "Catalog & Category Layout"
+msgstr ""
+
+msgid "Catalog & Product Appearance"
+msgstr ""
+
+msgid "Catalog & Products"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Category display"
+msgstr ""
+
+msgid "Category: %s"
+msgstr ""
+
+msgid "Centralized hub for managing Telegram sales, subscribers, broadcasts and system activity."
+msgstr ""
+
+msgid "Change language"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Channel Username"
+msgstr ""
+
+msgid "Channel: <b>%s</b>"
+msgstr ""
+
+msgid "Chat ID"
+msgstr ""
+
+msgid "Checking webhook status from Telegram..."
+msgstr ""
+
+msgid "Checkout & Fields"
+msgstr ""
+
+msgid "Clean Telegram navigation"
+msgstr ""
+
+msgid "Clear All Logs"
+msgstr ""
+
+msgid "Click to copy"
+msgstr ""
+
+msgid "Command"
+msgstr ""
+
+msgid "Command', 'Post Type Singular Name"
+msgstr ""
+
+msgid "Commands"
+msgstr ""
+
+msgid "Commands', 'Post Type General Name"
+msgstr ""
+
+msgid "Compose Broadcast Message"
+msgstr ""
+
+msgid "Compose and send messages with live Telegram preview"
+msgstr ""
+
+msgid "Comprehensive settings, smart communication management and direct sales of WooCommerce products in Telegram"
+msgstr ""
+
+msgid "Configure Bot Settings"
+msgstr ""
+
+msgid "Configure customer and admin Telegram alerts for orders, stock, price drops, and abandoned carts."
+msgstr ""
+
+msgid "Configure search behavior, SKU lookups, price filters, stock filtering, and sorting."
+msgstr ""
+
+msgid "Configured"
+msgstr ""
+
+msgid "Confirm details?"
+msgstr ""
+
+msgid "Confirm your details:"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Connected successfully! Bot ID: %1$s | Name: %2$s | Username: @%3$s"
+msgstr ""
+
+msgid "Connecting to Telegram API..."
+msgstr ""
+
+msgid "Connection & Core Setup"
+msgstr ""
+
+msgid "Connection & Security"
+msgstr ""
+
+msgid "Connection Diagnostics & Health Check"
+msgstr ""
+
+msgid "Connection Exception: "
+msgstr ""
+
+msgid "Connection Health"
+msgstr ""
+
+msgid "Connection Mode"
+msgstr ""
+
+msgid "Connection Proxy Settings"
+msgstr ""
+
+msgid "Connection failed"
+msgstr ""
+
+msgid "Contact Us"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Contact us via milmit.net"
+msgstr ""
+
+msgid "Continue ⏭️"
+msgstr ""
+
+msgid "Controls the order used by the New Products button."
+msgstr ""
+
+msgid "Copied!"
+msgstr ""
+
+msgid "Copy URL"
+msgstr ""
+
+msgid "Copy and Send Commands Below to @BotFather"
+msgstr ""
+
+msgid "Copy the text below using the copy button and send it to @BotFather:"
+msgstr ""
+
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgid "Core Menu Buttons"
+msgstr ""
+
+msgid "Country %s: "
+msgstr ""
+
+msgid "Coupon \"%s\" applied successfully!"
+msgstr ""
+
+msgid "Coupon \\"
+msgstr ""
+
+msgid "Coupon code is invalid."
+msgstr ""
+
+msgid "Create this coupon code in WooCommerce > Marketing > Coupons for special bot discounts."
+msgstr ""
+
+msgid "Customer: <b>%s</b>"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Date & Time"
+msgstr ""
+
+msgid "Date: %s"
+msgstr ""
+
+msgid "Dear %FIRST_NAME%.\nPlease send your search term or select from list below"
+msgstr ""
+
+msgid "Dear %FIRST_NAME%.\\\\\n"
+msgstr ""
+
+msgid "Dear %FIRST_NAME%.\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Dear %FIRST_NAME%.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Dedicated Telegram bot site and latest WooCommerce updates & plugins"
+msgstr ""
+
+msgid "Default Product Sorting Order"
+msgstr ""
+
+msgid "Default bot language"
+msgstr ""
+
+msgid "Default content broadcast"
+msgstr ""
+
+msgid "Default destination when broadcasting posts and products."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description full"
+msgstr ""
+
+msgid "Description limited"
+msgstr ""
+
+msgid "Description limited length"
+msgstr ""
+
+msgid "Design & Support:"
+msgstr ""
+
+msgid "Destination city for order delivery"
+msgstr ""
+
+msgid "Developed and supported by %1$s | %2$s"
+msgstr ""
+
+msgid "Direct Search by Product SKU"
+msgstr ""
+
+msgid "Direct Single-Product Order"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Discounted Products First"
+msgstr ""
+
+msgid "Discounted Sale Price"
+msgstr ""
+
+msgid "Discover amazing products and special offers on our Telegram store!"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Display alert in bot"
+msgstr ""
+
+msgid "Display an urgent promotional banner across bot menus and catalog views"
+msgstr ""
+
+msgid "Display category count"
+msgstr ""
+
+msgid "Display in Bot"
+msgstr ""
+
+msgid "Display in Broadcast (Channel, Groups, Users)"
+msgstr ""
+
+msgid "Display price filter shortcuts in the search interface."
+msgstr ""
+
+msgid "Display settings"
+msgstr ""
+
+msgid "Display text"
+msgstr ""
+
+msgid "Do Not Collect"
+msgstr ""
+
+msgid "Do not display categories that have no products"
+msgstr ""
+
+msgid "Download Settings JSON"
+msgstr ""
+
+msgid "Download a complete JSON file containing your tokens, menu structure, and bot preferences."
+msgstr ""
+
+msgid "Download links for order #%s:"
+msgstr ""
+
+msgid "Download links for order #%s:\n\n"
+msgstr ""
+
+msgid "Download sanitized logs"
+msgstr ""
+
+msgid "Downloads"
+msgstr ""
+
+msgid "Downloads for Order #%s"
+msgstr ""
+
+msgid "Dynamic variables available (click to insert into text):"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Command"
+msgstr ""
+
+msgid "Edit Item"
+msgstr ""
+
+msgid "Element / Button"
+msgstr ""
+
+msgid "Empower your customers to invite friends via /start ref_XXXX and track referral statistics"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable Advanced Product Search"
+msgstr ""
+
+msgid "Enable Post-Purchase Rating Survey"
+msgstr ""
+
+msgid "Enable Promotional Campaign Banner"
+msgstr ""
+
+msgid "Enable Referral & Invitation System"
+msgstr ""
+
+msgid "Enable Telegram Mini App"
+msgstr ""
+
+msgid "Enable proxy if your hosting server is restricted from accessing Telegram."
+msgstr ""
+
+msgid "Enable the storefront features you want to expose to customers."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enabled (Full Logging)"
+msgstr ""
+
+msgid "Errors only"
+msgstr ""
+
+msgid "Event Type"
+msgstr ""
+
+msgid "Example: Special festival discount! Use code FLASH20 at checkout for 20% off."
+msgstr ""
+
+msgid "Executing diagnostic unit tests..."
+msgstr ""
+
+msgid "Export Settings"
+msgstr ""
+
+msgid "Export all WooGram configurations to JSON or import settings from another site"
+msgstr ""
+
+msgid "Expose standard commands in the Telegram menu when supported."
+msgstr ""
+
+msgid "Failed to execute diagnostic test suite."
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "Flood & Rate Limiting Protection"
+msgstr ""
+
+msgid "Follow us on Telegram"
+msgstr ""
+
+msgid "For sending invoices and order notifications"
+msgstr ""
+
+msgid "For testing send and receive message. After testing please off it."
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Friends Invited: <b>%d</b>"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Full Name"
+msgstr ""
+
+msgid "Gallery, Reviews, Badges"
+msgstr ""
+
+msgid "Generate Secret"
+msgstr ""
+
+msgid "Generates a unique personal invite link for every Telegram subscriber with /referral command and tracking."
+msgstr ""
+
+msgid "Get address in order process"
+msgstr ""
+
+msgid "Get city in order process"
+msgstr ""
+
+msgid "Get email in order process"
+msgstr ""
+
+msgid "Get name in order process"
+msgstr ""
+
+msgid "Get order note in order process"
+msgstr ""
+
+msgid "Get payment method in order process"
+msgstr ""
+
+msgid "Get phone in order process"
+msgstr ""
+
+msgid "Get postal code in order process"
+msgstr ""
+
+msgid "Get quantity in add to cart process"
+msgstr ""
+
+msgid "Get shipping method in order process"
+msgstr ""
+
+msgid "Get state in order process"
+msgstr ""
+
+msgid "Get the Telegram bot connection token from %s and enter it here."
+msgstr ""
+
+msgid "Goodbye message when a user leaves or unsubscribes."
+msgstr ""
+
+msgid "Goodbye!"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Group Chat ID"
+msgstr ""
+
+msgid "Group Name"
+msgstr ""
+
+msgid "Group was successfully deleted."
+msgstr ""
+
+msgid "Group', 'Post Type Singular Name"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Groups Only"
+msgstr ""
+
+msgid "Guide"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hi welcome %FIRST_NAME%\nPlease send your search term or select from list below:"
+msgstr ""
+
+msgid "Hi welcome %FIRST_NAME%\\\\\n"
+msgstr ""
+
+msgid "Hi welcome %FIRST_NAME%\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Hi welcome %FIRST_NAME%\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Hide empty category"
+msgstr ""
+
+msgid "Hide products if subcategory exist"
+msgstr ""
+
+msgid "High Security"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Home message"
+msgstr ""
+
+msgid "How to get the order number"
+msgstr ""
+
+msgid "How was your shopping experience? Please rate this order:"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Import Settings"
+msgstr ""
+
+msgid "In Stock"
+msgstr ""
+
+msgid "In this mode, error logging is enabled and performance may experience delays. Please disable it when testing is complete."
+msgstr ""
+
+msgid "In-stock filter active"
+msgstr ""
+
+msgid "Inactive (Recommended: milmit.net webhook)"
+msgstr ""
+
+msgid "Insert dynamic variables:"
+msgstr ""
+
+msgid "Inspect events, orders and error diagnostics"
+msgstr ""
+
+msgid "Instantly notify the customer via Telegram with order number and tracking button."
+msgstr ""
+
+msgid "Interactive Price Range Filters"
+msgstr ""
+
+msgid "Interactive storefront inside Telegram with modern product grid, search, live cart, and checkout."
+msgstr ""
+
+msgid "Invalid or expired Telegram WebApp authentication data."
+msgstr ""
+
+msgid "Invalid value for %s. The previous value was preserved."
+msgstr ""
+
+msgid "Invite your friends to our Telegram bot and earn exclusive shopping rewards!"
+msgstr ""
+
+msgid "Italic (_text_)"
+msgstr ""
+
+msgid "Keep confidential"
+msgstr ""
+
+msgid "Keep product search available from the main menu."
+msgstr ""
+
+msgid "Keep product search available via /search and interactive search hub."
+msgstr ""
+
+msgid "Landline Only"
+msgstr ""
+
+msgid "Language changed to English"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Last Error (%1$s): %2$s"
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Last sent on: "
+msgstr ""
+
+msgid "Layout of products, photos, texts and purchase buttons in Telegram"
+msgstr ""
+
+msgid "Link ([title](url))"
+msgstr ""
+
+msgid "Link to site"
+msgstr ""
+
+msgid "List View"
+msgstr ""
+
+msgid "List of groups where your bot has been added."
+msgstr ""
+
+msgid "List of users who have subscribed to your bot."
+msgstr ""
+
+msgid "Log is Clean"
+msgstr ""
+
+msgid "Log level"
+msgstr ""
+
+msgid "Log retention (days)"
+msgstr ""
+
+msgid "Lowest price"
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+msgid "Main Menu & Button Customization"
+msgstr ""
+
+msgid "Management Shortcuts"
+msgstr ""
+
+msgid "Marketing & Backup"
+msgstr ""
+
+msgid "Maximum available stock is %d."
+msgstr ""
+
+msgid "Maximum spend for this coupon is %s."
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Message Content"
+msgstr ""
+
+msgid "Message content cannot be empty."
+msgstr ""
+
+msgid "Message displayed to the user after clicking Start."
+msgstr ""
+
+msgid "Message sent successfully to %d recipient(s)."
+msgstr ""
+
+msgid "Message when returning to the home screen and main menu."
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Messages & WPML"
+msgstr ""
+
+msgid "Messages settings"
+msgstr ""
+
+msgid "Messages sign"
+msgstr ""
+
+msgid "Messages will be dispatched in background queue."
+msgstr ""
+
+msgid "Mini App"
+msgstr ""
+
+msgid "Mini App Direct URL"
+msgstr ""
+
+msgid "Mini App template not found."
+msgstr ""
+
+msgid "Minimum spend for this coupon is %s."
+msgstr ""
+
+msgid "Mobile Only"
+msgstr ""
+
+msgid "Mobile or Landline"
+msgstr ""
+
+msgid "Modern bot features"
+msgstr ""
+
+msgid "Modern storefront features"
+msgstr ""
+
+msgid "Monospace (`code`)"
+msgstr ""
+
+msgid "Most popular"
+msgstr ""
+
+msgid "Multi-Item Shopping Cart (Recommended)"
+msgstr ""
+
+msgid "My orders"
+msgstr ""
+
+msgid "New Command"
+msgstr ""
+
+msgid "New Item"
+msgstr ""
+
+msgid "New Order in Store!"
+msgstr ""
+
+msgid "New Price: <b>%s</b>"
+msgstr ""
+
+msgid "New Referral Joined!"
+msgstr ""
+
+msgid "New Status: <b>%s</b>"
+msgstr ""
+
+msgid "Newest First"
+msgstr ""
+
+msgid "Newest Products"
+msgstr ""
+
+msgid "Newest products sorting"
+msgstr ""
+
+msgid "Newest published"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Groups Found"
+msgstr ""
+
+msgid "No Subscribers Found"
+msgstr ""
+
+msgid "No Token Entered"
+msgstr ""
+
+msgid "No downloadable files found for this order."
+msgstr ""
+
+msgid "No payment method found."
+msgstr ""
+
+msgid "No products found."
+msgstr ""
+
+msgid "No provinces/states found!"
+msgstr ""
+
+msgid "No sales recorded via Telegram yet."
+msgstr ""
+
+msgid "No user identity found in Telegram authentication data."
+msgstr ""
+
+msgid "No user identity was found for this chat."
+msgstr ""
+
+msgid "Non-SSL"
+msgstr ""
+
+msgid "Not found"
+msgstr ""
+
+msgid "Not found in Trash"
+msgstr ""
+
+msgid "Not set"
+msgstr ""
+
+msgid "Not show"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Notify Customer on Order Status Changes"
+msgstr ""
+
+msgid "Number of category button columns in Telegram keyboard."
+msgstr ""
+
+msgid "Number of products displayed per page with next/previous buttons."
+msgstr ""
+
+msgid "Numeric Telegram Chat ID where admin notifications should be delivered."
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Online Purchase Link"
+msgstr ""
+
+msgid "Online Purchase 👇"
+msgstr ""
+
+msgid "Only display instock products"
+msgstr ""
+
+msgid "Only show in stock or not"
+msgstr ""
+
+msgid "Only show products in the bot that are in stock"
+msgstr ""
+
+msgid "Only title"
+msgstr ""
+
+msgid "Open @BotFather Bot"
+msgstr ""
+
+msgid "Open Bot in Telegram"
+msgstr ""
+
+msgid "Open the store"
+msgstr ""
+
+msgid "Optional"
+msgstr ""
+
+msgid "Optional customer notes or instructions"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order #%s"
+msgstr ""
+
+msgid "Order Button"
+msgstr ""
+
+msgid "Order Now"
+msgstr ""
+
+msgid "Order Number: <b>#%s</b>"
+msgstr ""
+
+msgid "Order Registered Successfully!"
+msgstr ""
+
+msgid "Order Status Update"
+msgstr ""
+
+msgid "Order Total: <b>%s</b>"
+msgstr ""
+
+msgid "Order alerts, Stock & Price drops"
+msgstr ""
+
+msgid "Order not found."
+msgstr ""
+
+msgid "Order notes?"
+msgstr ""
+
+msgid "Order now while the discount is active!"
+msgstr ""
+
+msgid "Order process, shopping cart, and customer checkout fields"
+msgstr ""
+
+msgid "Order settings"
+msgstr ""
+
+msgid "Order: <b>#%s</b>"
+msgstr ""
+
+msgid "Ordered Items:"
+msgstr ""
+
+msgid "Ordering & Purchase Flow"
+msgstr ""
+
+msgid "Orders via Telegram"
+msgstr ""
+
+msgid "Out of Stock"
+msgstr ""
+
+msgid "Overview & Stats"
+msgstr ""
+
+msgid "Page %1$d of %2$d"
+msgstr ""
+
+msgid "Page 1 of %d"
+msgstr ""
+
+msgid "Parent Item:"
+msgstr ""
+
+msgid "Pay Now"
+msgstr ""
+
+msgid "Payment Method: <b>%s</b>"
+msgstr ""
+
+msgid "Payment Successful!"
+msgstr ""
+
+msgid "Payment confirmed! Your order is currently being prepared."
+msgstr ""
+
+msgid "Payment gateway or payment method for order"
+msgstr ""
+
+msgid "Payment link has expired or is invalid. Please request a new link from the bot."
+msgstr ""
+
+msgid "Payment method?"
+msgstr ""
+
+msgid "Permission denied"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Photo size"
+msgstr ""
+
+msgid "Please click one of the payment gateways below to complete your order 👇"
+msgstr ""
+
+msgid "Please enter a coupon code."
+msgstr ""
+
+msgid "Please fill in all required fields."
+msgstr ""
+
+msgid "Please fill in all required recipient fields."
+msgstr ""
+
+msgid "Please select %s:"
+msgstr ""
+
+msgid "Post Type Description"
+msgstr ""
+
+msgid "Post-Purchase Rating & Feedback"
+msgstr ""
+
+msgid "Postal code for delivery location"
+msgstr ""
+
+msgid "Prevent spam, bot attacks and server overload by throttling user requests."
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Price Drop Alert!"
+msgstr ""
+
+msgid "Price: %s"
+msgstr ""
+
+msgid "Price: <b>%s</b>"
+msgstr ""
+
+msgid "Price: High to Low"
+msgstr ""
+
+msgid "Price: Low to High"
+msgstr ""
+
+msgid "Priority:"
+msgstr ""
+
+msgid "Product \"%s\" is currently unavailable."
+msgstr ""
+
+msgid "Product #%d was removed as it is no longer available."
+msgstr ""
+
+msgid "Product Back in Stock!"
+msgstr ""
+
+msgid "Product Categories"
+msgstr ""
+
+msgid "Product Categories:"
+msgstr ""
+
+msgid "Product Name"
+msgstr ""
+
+msgid "Product Title"
+msgstr ""
+
+msgid "Product \\"
+msgstr ""
+
+msgid "Product card details"
+msgstr ""
+
+msgid "Product categories"
+msgstr ""
+
+msgid "Product display"
+msgstr ""
+
+msgid "Product display description"
+msgstr ""
+
+msgid "Product link"
+msgstr ""
+
+msgid "Product not found."
+msgstr ""
+
+msgid "Product per page"
+msgstr ""
+
+msgid "Product search"
+msgstr ""
+
+msgid "Product: <b>%s</b>"
+msgstr ""
+
+msgid "Production Ready"
+msgstr ""
+
+msgid "Prompt customers for 1-5 star feedback when orders are completed"
+msgstr ""
+
+msgid "Proxy"
+msgstr ""
+
+msgid "Proxy address"
+msgstr ""
+
+msgid "Proxy password"
+msgstr ""
+
+msgid "Proxy port"
+msgstr ""
+
+msgid "Proxy settings"
+msgstr ""
+
+msgid "Proxy status"
+msgstr ""
+
+msgid "Proxy type"
+msgstr ""
+
+msgid "Proxy username"
+msgstr ""
+
+msgid "Quantity for «%1$s» was adjusted to available stock (%2$d)."
+msgstr ""
+
+msgid "Quantity requested by buyer"
+msgstr ""
+
+msgid "Quick Buy Link"
+msgstr ""
+
+msgid "Quick Buy 👇"
+msgstr ""
+
+msgid "Rating recorded! Thank you."
+msgstr ""
+
+msgid "Real-time Telegram phone preview with Markdown parsing"
+msgstr ""
+
+msgid "Recently updated"
+msgstr ""
+
+msgid "Reference & Support"
+msgstr ""
+
+msgid "Reference Website:"
+msgstr ""
+
+msgid "Referral & Invitation Program"
+msgstr ""
+
+msgid "Referral Program"
+msgstr ""
+
+msgid "Referral Program Description / Reward Message"
+msgstr ""
+
+msgid "Referrals, Campaigns, Export/Import"
+msgstr ""
+
+msgid "Register webhook again"
+msgstr ""
+
+msgid "Regular Price"
+msgstr ""
+
+msgid "Removed from wishlist"
+msgstr ""
+
+msgid "Reorder"
+msgstr ""
+
+msgid "Replace the previous bot screen when users navigate with buttons, so the chat stays compact."
+msgstr ""
+
+msgid "Restore / Import Settings"
+msgstr ""
+
+msgid "Run System Unit Tests"
+msgstr ""
+
+msgid "SKU, Price, Stock & Sorting"
+msgstr ""
+
+msgid "SKU: %s"
+msgstr ""
+
+msgid "WooGram"
+msgstr ""
+
+msgid "WooGram Studio"
+msgstr ""
+
+msgid "WooGram – Telegram Bot for WooCommerce"
+msgstr ""
+
+msgid "WooGram Guide"
+msgstr ""
+
+msgid "WooGram - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+msgid "Saved products"
+msgstr ""
+
+msgid "Search & Filters"
+msgstr ""
+
+msgid "Search Command"
+msgstr ""
+
+msgid "Search Item"
+msgstr ""
+
+msgid "Search by Name, Username or Chat ID..."
+msgstr ""
+
+msgid "Search products"
+msgstr ""
+
+msgid "Search: %s"
+msgstr ""
+
+msgid "Secret token generated! Remember to save settings."
+msgstr ""
+
+msgid "Secret token sent by Telegram in X-Telegram-Bot-Api-Secret-Token header. Protects webhook from spoofing."
+msgstr ""
+
+msgid "Secure (SSL)"
+msgstr ""
+
+msgid "Security header"
+msgstr ""
+
+msgid "Select Target Audience"
+msgstr ""
+
+msgid "Select Your Shop Bot"
+msgstr ""
+
+msgid "Select from WooCommerce shipping methods"
+msgstr ""
+
+msgid "Select state for shipping calculation"
+msgstr ""
+
+msgid "Select your city?"
+msgstr ""
+
+msgid "Select your shop bot from the buttons or list provided by @BotFather."
+msgstr ""
+
+msgid "Select your state?"
+msgstr ""
+
+msgid "Send Broadcast Message"
+msgstr ""
+
+msgid "Send Broadcast Now"
+msgstr ""
+
+msgid "Send New Order Alert to Admin"
+msgstr ""
+
+msgid "Send Order Confirmation to Customer"
+msgstr ""
+
+msgid "Send Register Menu Command"
+msgstr ""
+
+msgid "Send a friendly reminder if a customer leaves items in their cart without completing payment."
+msgstr ""
+
+msgid "Send instant notification to store administrator Telegram chat upon every new order."
+msgstr ""
+
+msgid "Send the %s command to @BotFather."
+msgstr ""
+
+msgid "Send to WooCommerce Telegram Bot"
+msgstr ""
+
+msgid "Send to:"
+msgstr ""
+
+msgid "Send updates when order status changes to Processing, Completed, Cancelled, etc."
+msgstr ""
+
+msgid "Sends star rating buttons to the customer in Telegram once the order status changes to Completed."
+msgstr ""
+
+msgid "Server SSL Status:"
+msgstr ""
+
+msgid "Server network error occurred."
+msgstr ""
+
+msgid "Setting updated."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Share Invite Link"
+msgstr ""
+
+msgid "Shipping method?"
+msgstr ""
+
+msgid "Shopping Cart"
+msgstr ""
+
+msgid "Shopping cart"
+msgstr ""
+
+msgid "Shopping cart is empty."
+msgstr ""
+
+msgid "Shopping cart was emptied."
+msgstr ""
+
+msgid "Short description"
+msgstr ""
+
+msgid "Should your order be registered with these details?"
+msgstr ""
+
+msgid "Show SKU"
+msgstr ""
+
+msgid "Show available count next to category title"
+msgstr ""
+
+msgid "Show discount badge"
+msgstr ""
+
+msgid "Show in WooGram Telegram bot"
+msgstr ""
+
+msgid "Show number"
+msgstr ""
+
+msgid "Show product qty in stock"
+msgstr ""
+
+msgid "Show/Hide token"
+msgstr ""
+
+msgid "Showing all products"
+msgstr ""
+
+msgid "Simple Link"
+msgstr ""
+
+msgid "Some "
+msgstr ""
+
+msgid "Sorry, \"%s\" does not have enough stock available."
+msgstr ""
+
+msgid "Sorry, \\"
+msgstr ""
+
+msgid "Sorting updated"
+msgstr ""
+
+msgid "Special Announcement"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Bot Commands (Commands List)"
+msgstr ""
+
+msgid "Start Message"
+msgstr ""
+
+msgid "Start and main menu"
+msgstr ""
+
+msgid "Start the store"
+msgstr ""
+
+msgid "Status: <b>%s</b>"
+msgstr ""
+
+msgid "Stock check, Tax, Shipping, Locks"
+msgstr ""
+
+msgid "Stock quantity: %s"
+msgstr ""
+
+msgid "Store Channel"
+msgstr ""
+
+msgid "Store menu"
+msgstr ""
+
+msgid "Street, alley, and house number for delivery"
+msgstr ""
+
+msgid "Subscribe Date"
+msgstr ""
+
+msgid "Subscribed groups"
+msgstr ""
+
+msgid "Subscribed groups', 'Post Type General Name"
+msgstr ""
+
+msgid "Subscribed users"
+msgstr ""
+
+msgid "Subscribed users', 'Post Type General Name"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Subscriber was successfully deleted."
+msgstr ""
+
+msgid "Subscribers"
+msgstr ""
+
+msgid "Subscribers & Groups"
+msgstr ""
+
+msgid "Subscribers Only"
+msgstr ""
+
+msgid "Support Website"
+msgstr ""
+
+msgid "Support and contact"
+msgstr ""
+
+msgid "Synchronize language with WPML"
+msgstr ""
+
+msgid "System Activity & Logs"
+msgstr ""
+
+msgid "Target"
+msgstr ""
+
+msgid "Telegram"
+msgstr ""
+
+msgid "Telegram API Error: "
+msgstr ""
+
+msgid "Telegram Bot Token"
+msgstr ""
+
+msgid "Telegram Channel"
+msgstr ""
+
+msgid "Telegram Group"
+msgstr ""
+
+msgid "Telegram Mini App (Web App)"
+msgstr ""
+
+msgid "Telegram Mini App is disabled in settings."
+msgstr ""
+
+msgid "Telegram Sales"
+msgstr ""
+
+msgid "TeleNexa Bot"
+msgstr ""
+
+msgid "Telegram User"
+msgstr ""
+
+msgid "Telegram Web App settings"
+msgstr ""
+
+msgid "Telegram bot"
+msgstr ""
+
+msgid "Telegram bot username without @ sign (e.g. %s)"
+msgstr ""
+
+msgid "Telegram command menu"
+msgstr ""
+
+msgid "Telegram returned an invalid response!"
+msgstr ""
+
+msgid "Telegram-Exclusive Coupon Code"
+msgstr ""
+
+msgid "Test Bot Connection (getMe)"
+msgstr ""
+
+msgid "Test Mode Active"
+msgstr ""
+
+msgid "Test Mode:"
+msgstr ""
+
+msgid "Test Webhook Status (getWebhookInfo)"
+msgstr ""
+
+msgid "Test suite AJAX request failed."
+msgstr ""
+
+msgid "Text, link, or separator placed at the end of all sent messages."
+msgstr ""
+
+msgid "Texts & Greetings"
+msgstr ""
+
+msgid "Texts & Translations"
+msgstr ""
+
+msgid "Thank you for shopping with us! You can track your order status anytime using the button below."
+msgstr ""
+
+msgid "Thank you for your rating!"
+msgstr ""
+
+msgid "The item you requested is now available. Order before it sells out!"
+msgstr ""
+
+msgid "The requested quantity of (%s) is not available in stock!"
+msgstr ""
+
+msgid "There are no errors or recorded events in the activity log."
+msgstr ""
+
+msgid "These settings are stored with the plugin options and can be expanded as new modules are added."
+msgstr ""
+
+msgid "This Month: %s"
+msgstr ""
+
+msgid "This coupon has expired."
+msgstr ""
+
+msgid "This coupon usage limit has been reached."
+msgstr ""
+
+msgid "This product or variation is currently unavailable."
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Time-Limited Campaigns & Flash Sales"
+msgstr ""
+
+msgid "Title and text"
+msgstr ""
+
+msgid "Today"
+msgstr ""
+
+msgid "Today: %s"
+msgstr ""
+
+msgid "Toggle buttons, customize Persian and English titles, rearrange order, and add custom buttons."
+msgstr ""
+
+msgid "Too many requests. Please wait a moment before trying again."
+msgstr ""
+
+msgid "Top Selling Products via Telegram"
+msgstr ""
+
+msgid "Total Sales: %s"
+msgstr ""
+
+msgid "Total Successful Referrals: <b>%d</b>"
+msgstr ""
+
+msgid "Total products: %d"
+msgstr ""
+
+msgid "Total: <b>%s</b>"
+msgstr ""
+
+msgid "Track Order"
+msgstr ""
+
+msgid "Track Orders"
+msgstr ""
+
+msgid "Track orders"
+msgstr ""
+
+msgid "Transaction ID: <code>%s</code>"
+msgstr ""
+
+msgid "Try Again"
+msgstr ""
+
+msgid "Type here your command"
+msgstr ""
+
+msgid "Unauthorized request. Please open the Mini App inside Telegram."
+msgstr ""
+
+msgid "Unknown API response"
+msgstr ""
+
+msgid "Unknown error!"
+msgstr ""
+
+msgid "Update Command"
+msgstr ""
+
+msgid "Update Item"
+msgstr ""
+
+msgid "Upload a valid WooGram JSON backup file to overwrite current settings safely."
+msgstr ""
+
+msgid "Use the current WPML language before a customer chooses a personal bot language."
+msgstr ""
+
+msgid "Used when the user has not selected a language and WPML has no active language."
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User', 'Post Type Singular Name"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Users, Groups"
+msgstr ""
+
+msgid "Users, Groups & Channel"
+msgstr ""
+
+msgid "Users, Groups, Channel"
+msgstr ""
+
+msgid "Version %s"
+msgstr ""
+
+msgid "View Command"
+msgstr ""
+
+msgid "View Item"
+msgstr ""
+
+msgid "View My Referrals"
+msgstr ""
+
+msgid "View Order Details"
+msgstr ""
+
+msgid "View Product"
+msgstr ""
+
+msgid "View Result in Bot"
+msgstr ""
+
+msgid "View all groups &rarr;"
+msgstr ""
+
+msgid "View all subscribers &rarr;"
+msgstr ""
+
+msgid "View and filter unique subscribers and groups"
+msgstr ""
+
+msgid "View cart"
+msgstr ""
+
+msgid "View newest products"
+msgstr ""
+
+msgid "View on Website Button"
+msgstr ""
+
+msgid "Visit milmit.net &rarr;"
+msgstr ""
+
+msgid "We have received your payment and are processing your order."
+msgstr ""
+
+msgid "Web site"
+msgstr ""
+
+msgid "Webhook Check Exception: "
+msgstr ""
+
+msgid "Webhook Endpoint"
+msgstr ""
+
+msgid "Webhook Result:"
+msgstr ""
+
+msgid "Webhook Secret Token"
+msgstr ""
+
+msgid "Webhook URL: %1$s | Pending Updates: %2$d"
+msgstr ""
+
+msgid "Webhook check failed"
+msgstr ""
+
+msgid "Webhook was not set!"
+msgstr ""
+
+msgid "Website Link"
+msgstr ""
+
+msgid "Welcome!"
+msgstr ""
+
+msgid "When the bot is added to Telegram groups, they will be listed here."
+msgstr ""
+
+msgid "When visitors interact with your bot, they will be registered here automatically."
+msgstr ""
+
+msgid "Wishlist"
+msgstr ""
+
+msgid "WooGram"
+msgstr ""
+
+msgid "WooGram - The minimum PHP version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+msgid "WooGram Studio"
+msgstr ""
+
+msgid "WooGram Telegram Bot Guide"
+msgstr ""
+
+msgid "WooGram – Telegram Bot for WooCommerce"
+msgstr ""
+
+msgid "WordPress Permalink"
+msgstr ""
+
+msgid "Write your Telegram message here... You can use Telegram Markdown formatting."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You can also send any product name or SKU directly to search!"
+msgstr ""
+
+msgid "You can connect this URL to @BotFather via %s or set it as a menu button for your bot."
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "You rated Order #%s: %s (%d / 5)"
+msgstr ""
+
+msgid "Your Personal Invite Link:"
+msgstr ""
+
+msgid "Your address?"
+msgstr ""
+
+msgid "Your cart is empty."
+msgstr ""
+
+msgid "Your contact number?"
+msgstr ""
+
+msgid "Your email address?"
+msgstr ""
+
+msgid "Your full name?"
+msgstr ""
+
+msgid "Your invoice total%s is:\n%s"
+msgstr ""
+
+msgid "Your invoice total%s is:\\\\\n"
+msgstr ""
+
+msgid "Your invoice total%s is:\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Your invoice total%s is:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr ""
+
+msgid "Your landline phone?"
+msgstr ""
+
+msgid "Your live message preview will appear here in real time as you type..."
+msgstr ""
+
+msgid "Your mobile number?"
+msgstr ""
+
+msgid "Your order has been cancelled. Please contact support if you need assistance."
+msgstr ""
+
+msgid "Your order has been completed and dispatched. Thank you for your purchase!"
+msgstr ""
+
+msgid "Your order is already being processed. Please wait."
+msgstr ""
+
+msgid "Your postal code?"
+msgstr ""
+
+msgid "Your rating helps us continuously improve our products and service."
+msgstr ""
+
+msgid "Your shop channel ID (optional). To send products or broadcasts automatically, the bot must be a channel Administrator."
+msgstr ""
+
+msgid "\\"
+msgstr ""
+
+msgid "\\\\"
+msgstr ""
+
+msgid "\\\\\\\\"
+msgstr ""
+
+msgid "\\\\\\\\\\\\\\\\"
+msgstr ""
+
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+msgstr ""
+
+msgid "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+msgstr ""
+
+msgid "bot"
+msgstr ""
+
+msgid "characters"
+msgstr ""
+
+msgid "products per page"
+msgstr ""
+
+msgid "words"
+msgstr ""
+
+msgid "«%s» is out of stock and was removed from your cart."
+msgstr ""
+
+msgid "زبان به فارسی تغییر کرد"
+msgstr ""
+
+msgid "ℹ️ Help"
+msgstr ""
+
+msgid "☎️ Please type and send your landline phone number (e.g. 02133445566):"
+msgstr ""
+
+msgid "⚙️ Settings"
+msgstr ""
+
+msgid "⚠️ Bot Test Mode Active ⚠️"
+msgstr ""
+
+msgid "⚠️ Order #%s has been refunded."
+msgstr ""
+
+msgid "⚠️ You are sending requests too quickly. Please wait a moment."
+msgstr ""
+
+msgid "✅ Coupon \"%s\" applied."
+msgstr ""
+
+msgid "✅ Coupon \\"
+msgstr ""
+
+msgid "✅ Coupon \\\\"
+msgstr ""
+
+msgid "✅ Coupon \\\\\\\\"
+msgstr ""
+
+msgid "✅ Coupon \\\\\\\\\\\\\\\\"
+msgstr ""
+
+msgid "✅ Coupon \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"
+msgstr ""
+
+msgid "✅ Order #%s has been completed."
+msgstr ""
+
+msgid "✅ Thank you, your order #%s has been received."
+msgstr ""
+
+msgid "✅ Yes"
+msgstr ""
+
+msgid "✉️ Please type and send your email address in the box below:"
+msgstr ""
+
+msgid "❌ Cancel"
+msgstr ""
+
+msgid "❌ No"
+msgstr ""
+
+msgid "❌ Regular Price: %s ❌"
+msgstr ""
+
+msgid "❌ Remove"
+msgstr ""
+
+msgid "❌ The contact number entered is invalid."
+msgstr ""
+
+msgid "❌ The email address entered is invalid."
+msgstr ""
+
+msgid "❌ The mobile number entered is invalid."
+msgstr ""
+
+msgid "❌ The phone number entered is invalid."
+msgstr ""
+
+msgid "❌ The postal code entered is invalid."
+msgstr ""
+
+msgid "❓ Track Orders"
+msgstr ""
+
+msgid "❤️ Wishlist"
+msgstr ""
+
+msgid "➕ Continue Shopping"
+msgstr ""
+
+msgid "⭐ New Products"
+msgstr ""
+
+msgid "🌐 Choose your language:"
+msgstr ""
+
+msgid "🌐 Store Website"
+msgstr ""
+
+msgid "🌐 زبان ربات را انتخاب کنید:"
+msgstr ""
+
+msgid "🎉 Order #%s was successfully placed."
+msgstr ""
+
+msgid "🏙️ City: %s"
+msgstr ""
+
+msgid "🏙️ City: %s\n"
+msgstr ""
+
+msgid "🏙️ Please select your city:"
+msgstr ""
+
+msgid "🏙️ Please type and send your city name in the box below:"
+msgstr ""
+
+msgid "🏛️ Please select your province/state:"
+msgstr ""
+
+msgid "🏛️ State: %s"
+msgstr ""
+
+msgid "🏛️ State: %s\n"
+msgstr ""
+
+msgid "🏠 Home"
+msgstr ""
+
+msgid "🏷️ Please type and send your discount coupon code in the box below:"
+msgstr ""
+
+msgid "👤 Full Name: %s"
+msgstr ""
+
+msgid "👤 Full Name: %s\n"
+msgstr ""
+
+msgid "👤 Please type and send your full name in the box below:"
+msgstr ""
+
+msgid "📍 Address: %s"
+msgstr ""
+
+msgid "📍 Address: %s\n"
+msgstr ""
+
+msgid "📍 Please type and send your detailed address (without province/city) in the box below:"
+msgstr ""
+
+msgid "📝 If you have any notes or instructions for this order, please type and send them below, or click Continue:"
+msgstr ""
+
+msgid "📞 Contact Us"
+msgstr ""
+
+msgid "📞 Phone: %s"
+msgstr ""
+
+msgid "📞 Phone: %s\n"
+msgstr ""
+
+msgid "📞 Please type and send your phone number (e.g. 09101234567 or 02133445566):"
+msgstr ""
+
+msgid "📦 All Categories"
+msgstr ""
+
+msgid "📧 Email: %s"
+msgstr ""
+
+msgid "📧 Email: %s\n"
+msgstr ""
+
+msgid "📮 Please type and send your 10-digit postal code (e.g. 1234567890):"
+msgstr ""
+
+msgid "📮 Postal Code: %s"
+msgstr ""
+
+msgid "📮 Postal Code: %s\n"
+msgstr ""
+
+msgid "📱 Please type and send your mobile number (e.g. 09101234567):"
+msgstr ""
+
+msgid "🔗 View on Website"
+msgstr ""
+
+msgid "🔙 Back"
+msgstr ""
+
+msgid "🔙 Back to Cart"
+msgstr ""
+
+msgid "🚚 No shipping method found for your address."
+msgstr ""
+
+msgid "🚚 Please select your preferred shipping method:"
+msgstr ""
+
+msgid "🛑 Order #%s has been cancelled."
+msgstr ""
+
+msgid "🛒 Order"
+msgstr ""
+
+msgid "🛒 Order: %1$s (%2$s)"
+msgstr ""
+
+msgid "🛒 View Cart"
+msgstr ""
+
+msgid "All Options & Modules"
+msgstr ""
+
+msgid "Advanced WordPress View"
+msgstr ""
+
+msgid "View registered users and bot subscribers"
+msgstr ""
+
+msgid "Connected Telegram groups and channels"
+msgstr ""
+
+msgid "Required Membership"
+msgstr ""
+
+msgid "Channels & Groups Access Gate"
+msgstr ""
+
+msgid "Ask users to join selected Telegram channels or groups before using the store."
+msgstr ""
+
+msgid "A professional access gate for your community"
+msgstr ""
+
+msgid "The bot checks every private user with Telegram getChatMember. The bot must be an administrator in private channels/groups for the check to work reliably."
+msgstr ""
+
+msgid "Enable required membership"
+msgstr ""
+
+msgid "Users who have not joined all enabled channels/groups will see the join screen instead of the store."
+msgstr ""
+
+msgid "Apply to administrators too"
+msgstr ""
+
+msgid "Telegram administrators and store admins must also pass the membership check."
+msgstr ""
+
+msgid "Required destination"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Username or Chat ID"
+msgstr ""
+
+msgid "Join URL"
+msgstr ""
+
+msgid "Enable this destination"
+msgstr ""
+
+msgid "Add channel or group"
+msgstr ""
+
+msgid "For a public channel, enter its @username. For a private channel or group, enter the numeric Chat ID and provide an invite URL."
+msgstr ""
+
+msgid "Telegram Stars Price"
+msgstr ""
+
+msgid "e.g. 50 (optional)"
+msgstr ""
+
+msgid "Optional dedicated price in Telegram Stars (integer >= 1). If left empty, the global rate will be used as default."
+msgstr ""
+
+msgid "Optional dedicated price in Telegram Stars for this variation (integer >= 1)."
+msgstr ""
+
+msgid "Payable with Telegram Stars"
+msgstr ""
+
+msgid "Telegram Stars Amount:"
+msgstr ""
+
+msgid "Telegram Stars payment successfully refunded (Charge ID: %s)."
+msgstr ""
+
+msgid "Failed to refund Telegram Stars payment: %s"
+msgstr ""
