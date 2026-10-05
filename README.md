@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/github/telenexa-banner.png" alt="TeleNexa – WooCommerce Storefront, Telegram Sales Bot and Mini App" width="100%">
+
+<br>
+
 # ⚡ TeleNexa
 
 ### WooCommerce Storefront, Sales Bot & Mini App for Telegram
