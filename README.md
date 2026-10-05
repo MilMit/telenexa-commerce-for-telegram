@@ -8,12 +8,12 @@ Turn your WooCommerce store into a native-feeling Telegram shopping experience �
 
 [![Version](https://img.shields.io/badge/version-1.0.0-2ea44f?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/license-GPL--2.0%2B-blue?style=for-the-badge)](#license)
-[![WordPress](https://img.shields.io/badge/WordPress-Plugin-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/)
+[![WordPress.org](https://img.shields.io/badge/WordPress.org-TeleNexa-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/plugins/telenexa-woocommerce-telegram-bot/)
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-Ready-96588A?style=for-the-badge&logo=woocommerce&logoColor=white)](https://woocommerce.com/)
 [![Telegram](https://img.shields.io/badge/Telegram-Bot%20%2B%20Mini%20App-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://core.telegram.org/bots/webapps)
 [![MilMit](https://img.shields.io/badge/by-MilMit-111827?style=for-the-badge)](https://milmit.net/)
 
-**[Features](#-features) · [Installation](#-installation) · [Configuration](#%EF%B8%8F-configuration) · [فارسی](#-فارسی) · [MilMit](https://milmit.net/)**
+**[Features](#-features) · [Installation](#-installation) · [Configuration](#%EF%B8%8F-configuration) · [WordPress.org](https://wordpress.org/plugins/telenexa-woocommerce-telegram-bot/) · [Official Page](https://milmit.net/product/telenexa-woocommerce-telegram-bot/) · [فارسی](#-فارسی)**
 
 </div>
 
@@ -157,7 +157,8 @@ TeleNexa برای فروشگاه‌های چندزبانه نیز طراحی ش�
 
 TeleNexa is developed and maintained by **MilMit**.
 
-**Website:** [milmit.net](https://milmit.net/)  
+**Official TeleNexa Page:** [milmit.net/product/telenexa-woocommerce-telegram-bot/](https://milmit.net/product/telenexa-woocommerce-telegram-bot/)  
+**WordPress.org:** [wordpress.org/plugins/telenexa-woocommerce-telegram-bot/](https://wordpress.org/plugins/telenexa-woocommerce-telegram-bot/)  
 **GitHub:** [github.com/MilMit](https://github.com/MilMit)
 
 If TeleNexa helps your project, consider giving the repository a ⭐ — it helps more WooCommerce developers discover it.
